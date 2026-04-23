@@ -3,6 +3,8 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  scrollbar-color: #f1c40f #1a1400;
+  scrollbar-width: thin;
 }
 
 body {
@@ -125,9 +127,6 @@ footer a:focus-visible,
 ::-webkit-scrollbar-thumb:hover {
   background: #ffd700;
 }
-
-scrollbar-color: #f1c40f #1a1400;
-scrollbar-width: thin;
 
 .site-tag::before {
   content: '⚠';
