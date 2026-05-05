@@ -2,9 +2,11 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 88px;
+  scroll-padding: 0;
+  scroll-margin: 0;
   scrollbar-color: #f1c40f #1a1400;
   scrollbar-width: thin;
+  margin: 0;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   color: #ffffff;
   font-family: 'Barlow', sans-serif;
   min-height: 100vh;
+  margin: 0;
 }
 
 .caution-tape {
@@ -26,7 +29,7 @@ body {
   );
   height: 28px;
   width: 100%;
-  margin-top: 180px;
+  margin-top: 0;
 }
 
 nav {
@@ -230,6 +233,10 @@ h1 .outline {
 .section-alt {
   background: #0d0b00;
   padding: 64px 48px;
+}
+
+main {
+  margin-bottom: 180px;
 }
 
 .section-inner {
