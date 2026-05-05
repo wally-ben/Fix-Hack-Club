@@ -26,6 +26,7 @@ body {
   );
   height: 28px;
   width: 100%;
+  margin-top: 180px;
 }
 
 nav {
@@ -153,7 +154,7 @@ h1 .outline {
 .hero-desc {
   font-size: 18px;
   line-height: 1.6;
-  color: #aaa;
+  color: #ffffff;
   max-width: 560px;
   margin-bottom: 40px;
   border-left: 4px solid #f1c40f;
@@ -223,6 +224,7 @@ h1 .outline {
 .section {
   background: #111000;
   padding: 64px 48px;
+  margin-bottom: 20px;
 }
 
 .section-alt {
@@ -238,10 +240,10 @@ h1 .outline {
 .section-label {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  font-size: 11px;
+  font-size: 30px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #f1c40f;
+  color: #ffffff;
   margin-bottom: 32px;
   display: flex;
   align-items: center;
@@ -270,6 +272,15 @@ h1 .outline {
   transition: border-color .2s, transform .2s;
 }
 
+.ticketA {
+  background: #111000;
+  padding: 28px;
+  position: relative;
+  border-top: 3px solid transparent;
+  transition: border-color .2s, transform .2s;
+  height: 400px;
+}
+
 .ticket:hover { border-color: #f1c40f; transform: translateY(-2px); }
 
 .ticket-id {
@@ -280,19 +291,46 @@ h1 .outline {
   margin-bottom: 12px;
 }
 
+.ticket-idA {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: #f1c40f;
+  margin-bottom: 12px;
+}
+
 .ticket h3 {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+.ticketA h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
 
+.ticketA ul {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+}
+
 .ticket p {
   font-size: 13px;
-  color: #666;
+  color: #f1c40f;
   line-height: 1.6;
+}
+.ticketA p {
+  font-size: 20px;
+  color: #f1c40f;
+  line-height: 1.6;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .ticket-num {
